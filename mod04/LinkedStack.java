@@ -1,15 +1,15 @@
 /**
  * Generics.
  * 
- * - Generics vs Data Sctructure Implementation with elements of type Object
- *    - Data Sctructure Implementation:
- *        - Casting is required int client.
+ * - Generics vs Data Structure Implementation with elements of type Object
+ *    - Data Structure Implementation:
+ *        - Casting is required in client.
  *        - Casting is error-prone: run-time error if types mismatch.
  *    - Generics:
  *        - Avoid casting in client.
  *        - Discover type mismatch error at compile-time instead of run-time.
  */
-public class Stack<Item> {
+public class LinkedStack<Item> {
     private Node first = null;
     private class Node {
         public Node (Item item) {
