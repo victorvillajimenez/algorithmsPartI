@@ -2,7 +2,7 @@ import java.lang.Iterable;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 /**
- * Deque. it is a Doubly Linked List implemetation.
+ * Deque. it is a Doubly Linked List implementation.
  * reference: https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php
  */
 public class Deque<Item> implements Iterable<Item> {
