@@ -1,0 +1,5 @@
+Stacks and Queues
+3. Java generics. Explain why Java prohibits generic array creation.
+
+HINT: to start, you need to understand that Java arrays are covariant but Java generics are not:
+      that is, String[] is a subtype of Object[], but Stack<String> is not a subtype of Stack<Object>.
